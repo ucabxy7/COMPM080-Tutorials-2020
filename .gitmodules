@@ -1,0 +1,4 @@
+[submodule "cpp_lib/libigl_c645aac0"]
+	path = cpp_lib/libigl_c645aac0
+	url = https://github.com/smartgeometry-ucl/libigl
+	branch = master
