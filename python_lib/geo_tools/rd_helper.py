@@ -71,7 +71,7 @@ def load_pcd_obj(fp):
     return vertices,vnormal
 
 
-def create_edge_mesh( p0_pts,  p1_pts, p0_color=np.array([1.0,0.0,0.0]), p1_color=np.array([0.0,1.0,0.0]), line_color=np.array((0.0,0.0,1.0)) , no_vex=False ):
+def create_edges( p0_pts,  p1_pts, p0_color=np.array([1.0,0.0,0.0]), p1_color=np.array([0.0,1.0,0.0]), line_color=np.array((0.0,0.0,1.0)) , no_vex=False ):
     # N,3
     if p1_pts.size<=0:
         return None 
