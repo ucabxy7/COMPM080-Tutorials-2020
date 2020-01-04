@@ -49,8 +49,7 @@ Some useful attributes are listed below:
 | is_winding_consistent | bool | Does the mesh have consistent winding or not. |
 | euler_number | int | Return the Euler characteristic (a topological invariant) for the mesh |
 
-## Methods
-Some usefull methodes are listed below:  
+## Frequently used Methods
 
 Trimesh.[apply_transform(matrix)](  https://trimsh.org/trimesh.html#trimesh.Trimesh.apply_transform  )  
 Trimesh.[copy()](  https://trimsh.org/trimesh.html#trimesh.Trimesh.copy  )  
