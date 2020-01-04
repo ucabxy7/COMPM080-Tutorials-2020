@@ -23,7 +23,7 @@ void add_edges(igl::opengl::glfw::Viewer& viewer, Eigen::MatrixXd const &  p0, E
 
 ### Draw Mesh 
 ``` cpp
-add_mesh(igl::opengl::glfw::Viewer& viewer, Eigen::MatrixXd const &  V, Eigen::MatrixXi const & F, Eigen::MatrixXd const & color)
+void add_mesh(igl::opengl::glfw::Viewer& viewer, Eigen::MatrixXd const &  V, Eigen::MatrixXi const & F, Eigen::MatrixXd const & color)
 ```
 
 ---
