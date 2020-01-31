@@ -16,7 +16,7 @@
 Give a point set, its bounding box can be defined by the maximum and the minimum coordinates. This step is used to add meaningful noises since the coordinate of a mesh is not always aligned with the real world metric (so 0.1 in M2's space can be 0.1 cm/0.1 meters or 0.1 X depends on how M2 is created) 
 
 7. what is normal shading:
-Normal shading : points colored based on their normals being mapped to rgb. It can be changing vertices color using normal vectors as normal vectors have value range in [0,1]. 
+Normal shading : points colored based on their normals being mapped to rgb. It can be changing vertices color using normal vectors. 
 e.g.
 ![Image](/course_work_1/imgs/nv_shading.png)  
 
