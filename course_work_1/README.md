@@ -20,9 +20,9 @@ Normal shading : points colored based on their normals being mapped to rgb. It
 e.g.
 ![Image](/course_work_1/imgs/nv_shading.png)  
 
-8. Q4 subsample rate - trimesh.sample is a function for sampling points on the input MESH. Question 4 is asking to reduce the # of input points(vertices in our case). If you do trimesh.sample on the input bunny mesh (which is a imperfect mesh as you can see), you will introduce many noisy points. In pratical, we have input scans as points sets, then we do registeration and get a reconstructed mesh
+8. Q4 subsample rate - trimesh.sample is a function for sampling points on the input MESH. Question 4 is asking to reduce the # of input points(vertices in our case). If you do trimesh.sample on the input bunny mesh (which is a imperfect mesh as you can see), you will introduce many noisy points. In pratical, we have input scans as points sets, then we do registeration and get a reconstructed mesh. Please apply your sampling method directly on the input points(vertices). 
 
-9. Point selection in ICP: there are many subsampling strategy. In this [paper](https://graphics.stanford.edu/papers/stabicp/stabicp.pdf), they subsample on the source points (see Section 3).
+9. Point selection in ICP: there are many subsampling strategies. In this [paper](https://graphics.stanford.edu/papers/stabicp/stabicp.pdf), they subsample on the source points (see Section 3).
 
 
 ## Results reference
