@@ -6,6 +6,7 @@
 2. curvature visualization: just make sure you can see the difference between flat area and complex area. 
 https://stackoverflow.com/questions/15140072/how-to-map-number-to-color-using-matplotlibs-colormap 
 
+![](https://libigl.github.io/images/bumpy-gaussian-curvature.jpg)
 
 3. question 3, eigenvectors of the Laplace-Beltrami : please use cotangent version
 
